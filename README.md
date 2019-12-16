@@ -1,2 +1,2 @@
 # cs-ci-action
-Action for CI 
+The action.yml will run the different targets of the service.
