@@ -1,0 +1,16 @@
+# This will run the different targets of the service
+name: Service Action
+
+description: Run CI jobs for a service
+inputs:
+  service:  
+    description: name of service
+    required: true
+  targets:  
+    description: targets to call in the makefile
+    required: true
+    default: [lint, test]
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  
