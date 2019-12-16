@@ -9,7 +9,7 @@ inputs:
   targets:  
     description: targets to call in the makefile
     required: true
-    default: [lint, test]
+    default: lint test
 runs:
   using: 'docker'
   image: 'Dockerfile'
