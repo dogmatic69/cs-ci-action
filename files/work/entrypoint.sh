@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -eu
 
 SERVICE_PATH=$(realpath ./${INPUT_SERVICE})
